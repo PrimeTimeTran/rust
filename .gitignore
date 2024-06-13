@@ -1,11 +1,7 @@
-
-                .vscode
-                **/__pycache__
-                **/venv
-                **/tmp
-                notes
-                
-
-# Added by cargo
+.vscode
+**/__pycache__
+**/venv
+**/tmp
+notes
 
 /target
