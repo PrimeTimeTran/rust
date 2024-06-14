@@ -2,8 +2,8 @@
 
 #[derive(Debug)]
 struct Student {
-    name: String,
     gpa: f32,
+    name: String,
 }
 
 fn main() {
@@ -43,9 +43,7 @@ fn main() {
 
             if name.is_some() && gpa.is_some() {
                 let name = name.unwrap().to_owned();
-                let gpa = gpa.unwrap().to_owned();
-
-                let gpa = gpa.parse::<f32>();
+                let gpa = gpa.unwrap().to_owned().parse::<f32>();
 
                 if gpa.is_ok() {
                     let gpa = gpa.unwrap();
