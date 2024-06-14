@@ -13,7 +13,6 @@ pub fn main() {
             process::exit(1);
         }
     };
-    // Print Fibonacci result
     match fibonacci(n) {
         Some(result) => println!("Fibonacci number {} is {:?}", n, result),
         None => println!(
