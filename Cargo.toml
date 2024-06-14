@@ -11,3 +11,7 @@ path = "src/lib.rs"
 [[bin]]
 name = "main"
 path = "src/main.rs"
+
+[[bin]]
+name = "combinators"
+path = "src/combinators.rs"
