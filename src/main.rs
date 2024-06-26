@@ -1,4 +1,5 @@
 pub mod circular_buffer;
+pub mod combinators;
 pub mod loops;
 pub mod pointers;
 
@@ -9,9 +10,10 @@ pub fn main() {
     //     width: 30,
     //     height: 50,
     // };
-
+    //
     // gogogo.boo();
     // loops::demo_iter();
     // pointers::example();
-    circular_buffer::main();
+    // circular_buffer::main();
+    combinators::main();
 }

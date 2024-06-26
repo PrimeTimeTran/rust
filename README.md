@@ -1,3 +1,5 @@
+https://rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html
+
 ## Rust
 (time cargo run --bin main -- 45) 2>> rust.log
 

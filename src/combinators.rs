@@ -6,7 +6,7 @@ struct Student {
     name: String,
 }
 
-fn main() {
+pub fn main() {
     let s1 = "Bogdan 3.1";
     let s2 = "Wallace 2.3";
     let s3 = "Lidiya 3.5";
